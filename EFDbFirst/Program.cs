@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace EFDbFirst
 {
@@ -10,6 +11,10 @@ namespace EFDbFirst
     {
         static void Main(string[] args)
         {
+            using (var context = new SucientlyExamplesEntities())
+            {
+                List<Person> people = context.People.ToList();
+            }
         }
     }
 }
