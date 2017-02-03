@@ -8,7 +8,6 @@
         <EntityTypeShape EntityType="SucientlyExamplesModel.Gender" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="SucientlyExamplesModel.Person" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <AssociationConnector Association="SucientlyExamplesModel.FK_Person_Person1" />
-        <AssociationConnector Association="SucientlyExamplesModel.FK_Person_Person1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
